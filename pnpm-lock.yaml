@@ -4,6 +4,14 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  '@fontsource/fira-code':
+    specifier: ^5.0.5
+    version: 5.0.5
+  '@fontsource/questrial':
+    specifier: ^5.0.5
+    version: 5.0.5
+
 devDependencies:
   '@sveltejs/adapter-auto':
     specifier: ^2.0.0
@@ -297,6 +305,14 @@ packages:
     resolution: {integrity: sha512-Ag+9YM4ocKQx9AarydN0KY2j0ErMHNIocPDrVo8zAE44xLTjEtz81OdR68/cydGtk6m6jDb5Za3r2useMzYmSw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
+
+  /@fontsource/fira-code@5.0.5:
+    resolution: {integrity: sha512-mb6eBaD0nheCaPZYllnBVsfUUuZufFtxZrF57CjmzkW2tM/G6Yag2UGjCX6vWVblHiIssmj986IDJo+R7SvnMw==}
+    dev: false
+
+  /@fontsource/questrial@5.0.5:
+    resolution: {integrity: sha512-w/d+3PV5jto2+ecaxRa/qNR0KA2w9KWevJ5J9E7HbhsYpET5Fj2xwW24OOPfsR6OldSNzHHuFBeO/FWxIGLvWA==}
+    dev: false
 
   /@humanwhocodes/config-array@0.11.10:
     resolution: {integrity: sha512-KVVjQmNUepDVGXNuoRRdmmEjruj0KfiGSbS8LVc12LMsWDQzRXJ0qdhN8L8uUigKpfEHRhlaQFY0ib1tnUbNeQ==}

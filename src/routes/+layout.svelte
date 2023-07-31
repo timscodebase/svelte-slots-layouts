@@ -1,15 +1,10 @@
 <script lang="ts">
-	import '@fontsource/questrial'
-	import '@fontsource/fira-code'
-
-	import Footer from '$lib/components/footer.svelte'
-	import Header from '$lib/components/header.svelte'
+import '@fontsource/questrial'import '@fontsource/fira-code'
+import Footer from '$lib/components/footer.svelte'import Header from '$lib/components/header.svelte'
 </script>
 
 <Header />
-<main>
-	<slot />
-</main>
+<main><slot /></main>
 <Footer />
 
 <style>
